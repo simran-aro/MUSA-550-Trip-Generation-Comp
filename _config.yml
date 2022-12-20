@@ -52,7 +52,7 @@ plugins:
 
 author:
   name: "Simran Arora"
-  avatar: "./assets/images/Part 2-01.png"
+  avatar: ".\assets\images\Part 2-01.png"
   bio: "City Planning student at University of Pennsylvania"
 
 
