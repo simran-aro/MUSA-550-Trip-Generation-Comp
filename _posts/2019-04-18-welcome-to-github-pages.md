@@ -1,31 +1,23 @@
 ---
-title: "Welcome to GitHub Pages!"
-date: 2019-04-18
+title: "Introduction, Inspiration and Background"
+date: 2022-12-20
 categories:
   - blog
 tags:
-  - Github Page
-  - update
+  - Introduction
+  - Indego
+  - Blue Bikes
 ---
+Philadelphia and Boston are often ranked in the top 20 bike-friendly cities in the US. Both have bikeshare systems, called Indego and BlueBikes respectively. This project looks at bike share data from both these cities, to explore trip data, demographic data, and which factors affect trip generation in both cities. These are then compared between Philadelphia and Boston to see the similarities and differences. The factors that are of importance in both the cities can be studied further— and used in strategies for bike planning in other places.
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and commit your changes to to the repository. GitHub will automatically rebuild your site. Wait a few minutes and then refresh the site link to see the new changes. There are two main ways to make changes to your site:
+The inspiration behind this project was this article: ['The Most Bike-Friendly Cities in the U.S. (2022 Data)'][https://anytimeestimate.com/research/most-bike-friendly-cities-us-2022/#:~:text=We%20found%20the%20three%20most,%2C%20and%20San%20Jose%2C%20Calif.&text=Since%20the%20invention%20of%20the,of%20transportation%20across%20the%20globe.]. I wanted to specifically see if the same factors affecting trips have similar importance in different cities. My hypothesis is that some factors are imperative to generating trips, but most are context specific. Additionally, the bike-share systems, Indego and Blue Bikes, might have different factors affecting ridership, as opposed to people riding their own bikes. Thus, I wanted to use some of the factors in this article to see if they apply to bike-share systems. 
 
-- Edit files within your in the browser at GitHub.com
-- Clone down your repository and make updates locally, then push them to your GitHub repository.
+This project is divided into three sections: 
 
-**To add new posts:** Add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+The first explores demographic data in a map format. These maps are compared to bike trips marked spatially to see the correlation between the two.
 
-Jekyll also offers powerful support for code snippets:
+The second explored weather data, and distances from various amenities. The articles mentions the importance of bike shops, thus, I wanted to specifically add this as a varible.
 
-```python
-def print_message(message):
-  print(message)
+The third uses the random forest machine learning algorithm from Scikit-Learn to see which factors affect trip generation, and their importance. This is compared between the two cities.
 
-print_message("Welcome to GitHub Pages")
-```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll.
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+![Philadelphia-Map]({{ site.url }}{{ site.baseurl }}/assets/images/Part 2-01.png)
