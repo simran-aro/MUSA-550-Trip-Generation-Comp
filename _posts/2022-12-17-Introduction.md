@@ -1,5 +1,5 @@
 ---
-title: "Introduction, Inspiration and Background"
+title: "Introduction"
 date: 2022-12-17
 categories:
   - blog
