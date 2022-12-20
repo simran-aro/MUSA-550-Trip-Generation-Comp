@@ -13,13 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "MUSA 550"
-email:
-description: "Geospatial Data Science in Python"
-twitter_username:
-github_username:
-minimal_mistakes_skin: default
-search: true
+title: "Factors Affecting Bike Trip Generation in Philadelphia & Boston"
+email: arorasim@upenn.edu
+description: "Analyzing Philadelphia's bikeshare program, Indego, and the factors generating bike trips during the height of the COVID-19 Pandemic. This is compared to Boston's Blue Bikes data for the same time period."
 
 # Build settings
 markdown: kramdown
@@ -55,34 +51,10 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "Nick Hand"
-  avatar:
-  bio: "Director of Finance, Data, and Policy, Philadelphia Controller"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://nickhand.dev"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+  name: "Simran Arora"
+  avatar: "/assets/images/Part 2-01.jpg"
+  bio: "City Planning student at University of Pennsylvania"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 # Defaults
 defaults:
